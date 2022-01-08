@@ -12,6 +12,18 @@ body {
   .file, .file-link {
       width: 100%
   }
+  .Dev-tasks-body{
+    padding-top: 10px;
+    font-weight: 500;
+    font-size: 16px;
+    color: #4f5a73;
+  }
+  .Dev-tasks-time{
+    font-size: 32px;
+    margin-top: -20px;
+    color: #050c33;
+    font-weight: bold;
+}
   .tabs-left>.nav-tabs>li:focus, .tabs-left>.nav-tabs>li>a:focus, .tabs-right>.nav-tabs>li:focus, .tabs-right>.nav-tabs>li>a:focus {
       outline: 0
   }
