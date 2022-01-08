@@ -1,0 +1,90 @@
+
+.popup{
+
+    display: block;
+    position: fixed;
+    list-style:none;
+    padding: 10px;
+    margin: 0;
+    box-sizing: border-box;
+    width: 200px;
+    background-color: #eee;
+    height: 100%;
+    top: 0;
+    left: -200px;
+    transition: left .2s;
+    z-index: 2;
+
+};
+body:after {
+content: '';
+display: block;
+width: 100%;
+height: 100vh;
+background-color: black;
+opacity: 0.7;
+position: absolute;
+left: -10000px;
+transition: transform 1s;
+}
+
+body.dark:after {
+transform: translateX(10000px);
+}
+.portal-transition-enter {
+opacity: 0;
+transform: translate3d(0, 50px, 0);
+}
+
+.portal-transition-enter-active {
+opacity: 1;
+transform: translate3d(0, 0, 0);
+transition: transform .5s, opacity .5s;
+}
+
+.portal-transition-leave {
+opacity: 1;
+transform: translate3d(0, 0, 0);
+}
+
+.portal-transition-leave-active {
+opacity: 0;
+transform: translate3d(0, 50px, 0);
+transition: transform .5s, opacity .5s;
+}
+.portal-transition-enter {
+opacity: 0;
+transform: translate3d(0, 50px, 0);
+}
+
+.portal-transition-enter-active {
+opacity: 1;
+transform: translate3d(0, 0, 0);
+transition: transform .5s, opacity .5s;
+}
+
+.portal-transition-leave {
+opacity: 1;
+transform: translate3d(0, 0, 0);
+}
+
+.portal-transition-leave-active {
+opacity: 0;
+transform: translate3d(0, 50px, 0);
+transition: transform .5s, opacity .5s;
+}
+
+.container {
+margin-right: auto;
+margin-left: auto;
+padding-left: 15px;
+padding-right: 15px;
+}
+.navbar-toggle{
+position: relative;
+float: right;
+};
+
+div {
+    display: block;
+}
