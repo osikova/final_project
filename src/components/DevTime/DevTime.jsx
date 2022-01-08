@@ -1,5 +1,8 @@
 import React from 'react';
 import './DevTime.module.css';
+import logo1 from './images/competency-20.svg';
+import logo2 from './images/competency-21.svg';
+import logo3 from './images/competency-22.svg';
 
 
 const DevTime = () => {
@@ -18,7 +21,7 @@ const DevTime = () => {
                         <div class="Dev-tasks">
                             <div class="Dev-tasks-wrapper">
                                 <div class="Dev-tasks-header">
-                                    {/*<div class="Dev-tasks-img"><img src={logo1} class="img-responsive"></img></div>*/}
+                                    <div class="Dev-tasks-img"><img src={logo1} class="img-responsive"></img></div>
                                 </div>
                                 <div class="Dev-tasks-body">
                                     <div class="Dev-tasks-time">от 1ч</div>
@@ -31,7 +34,7 @@ const DevTime = () => {
                         <div class="Dev-tasks">
                             <div class="Dev-tasks-wrapper">
                                 <div class="Dev-tasks-header">
-                                    {/*<div class="Dev-tasks-img"><img src={logo2} class="img-responsive"></img></div>*/}
+                                    <div class="Dev-tasks-img"><img src={logo2} class="img-responsive"></img></div>
                                 </div>
                                 <div class="Dev-tasks-body">
                                     <div class="Dev-tasks-time">от 20ч</div>
@@ -44,7 +47,7 @@ const DevTime = () => {
                         <div class="Dev-tasks">
                             <div class="Dev-tasks-wrapper">
                                 <div class="Dev-tasks-header">
-                                    {/*<div class="Dev-tasks-img"><img src={logo3} class="img-responsive"></img></div>*/}
+                                    <div class="Dev-tasks-img"><img src={logo3} class="img-responsive"></img></div>
                                 </div>
                                 <div class="Dev-tasks-body">
                                     <div class="Dev-tasks-time">от 8ч</div>
