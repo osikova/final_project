@@ -3,7 +3,7 @@ import s from './Support.module.css';
 import logo1 from './images/support1.svg';
 import logo2 from './images/support2.svg';
 import logo3 from './images/support3.svg';
-//import logo4 from './images/support4.svg';
+import logo4 from './images/support4.svg';
 import logo5 from './images/support5.svg';
 import logo6 from './images/support6.svg';
 import logo7 from './images/support7.svg';
@@ -70,7 +70,7 @@ const Support = () => {
                             <div class="sup_block-body">
                                 Ваш менеджер проекта  всегда в курсе текущего состояния проекта и в любой момент готов ответить на любые вопросы.
                             </div>
-                            <div class="sup_block-img">{/*<img alt="Пользователь" src={logo4} class="img-responsive"></img>*/}</div>
+                            <div class="sup_block-img"><img alt="Пользователь" src={logo4} class="img-responsive"></img></div>
                         </div>
                     </div>
                 </div>
