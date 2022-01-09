@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
 import s from './Form.module.css';
-/*import Recaptcha from "react-recaptcha";*/
+import Recaptcha from "react-recaptcha";
 import axios from 'axios';
 import { render } from '@testing-library/react';
 
@@ -42,10 +42,10 @@ class Form extends React.Component {
 
     e.preventDefault();
     }
-    /*else{
+    else{
       alert('Please verify that you`re human!');
       e.preventDefault();
-    }*/
+    }
     
   };
 
@@ -55,7 +55,7 @@ class Form extends React.Component {
     render(){
     return (
       <div>
-        <form  onSubmit={this.handleForm} class="contact-message-order-support-form contact-message-form contact-form"  action="/support" method="post" id="contact-message-order-support-form" accept-charset="UTF-8" >
+        <form  onSubmit={this.handleForm} class="contact-message-order-support-form contact-message-form contact-form"  /*action="/support"*/ method="post" id="contact-message-order-support-form" accept-charset="UTF-8" >
           <div class="field--type-string field--name-field-vashe-imya field--widget-string-textfield form-group js-form-wrapper form-wrapper" id="edit-field-vashe-imya-wrapper">
             <div class="form-item js-form-item form-type-textfield js-form-type-textfield form-item-field-vashe-imya-0-value js-form-item-field-vashe-imya-0-value form-group">
               <label for="edit-field-vashe-imya-0-value" class="control-label">Ваше имя</label>
@@ -90,13 +90,13 @@ class Form extends React.Component {
               <input required="required" class="form-checkbox required" type="checkbox" id="edit-fz152-agreement" name="fz152_agreement"  aria-required="true" /><span class="custom-checkbox"></span>Отправляя заявку, я даю согласие на <a href="#" target="_blank" >обработку своих персональных данных</a>.</label>
           </div>
           
-          {/*<Recaptcha
+          <Recaptcha
             sitekey="6LcEcjgaAAAAADrObb5moaSuqhGle2_cF3q35-_j"
             render="explicit"
             onloadCallback={this.handleCaptchaLoaded}
-            verifyCallback={this.verifyCallback}}
+            verifyCallback={this.verifyCallback}
             
-          />*/}
+          />
           <button onClick={this.hundletuda} class="button button--primary js-form-submit form-submit btn-primary btn" type="submit" id="edit-submit" >Свяжитесь с нами</button>
 
         </form>
