@@ -28,7 +28,7 @@ const Tariffs = () => {
                                             <div class="tarrif-body-item">Предоплата от 6 000 рублей в месяц</div>
                                         </div>
                                         <Popup trigger={<button> <div class="contact-form tariff-footer-btn">Свяжитесь с нами!</div> </button>} position="right bottom">
-                                            <box>{/*<Form />*/}</box>
+                                            <Form />
                                         </Popup>
                                     </div>
                                 </div>
@@ -47,7 +47,7 @@ const Tariffs = () => {
                                             <div class="tarrif-body-item">Предоплата от 30 000 рублей в месяц</div>
                                         </div>
                                         <Popup trigger={<button> <div class="contact-form tariff-footer-btn">Свяжитесь с нами!</div> </button>} position="right bottom">
-                                            <box>{/*<Form />*/}</box>
+                                            <Form />
                                         </Popup>
                                     </div>
                                 </div>
@@ -66,14 +66,14 @@ const Tariffs = () => {
                                             <div class="tarrif-body-item">Предоплата от 270 000 рублей в месяц</div>
                                         </div>
                                         <Popup trigger={<button> <div class="contact-form tariff-footer-btn">Свяжитесь с нами!</div> </button>} position="right bottom">
-                                            <box>{/*<Form />*/}</box>
+                                            <Form />
                                         </Popup>
                                     </div>
                                 </div>
                             </div>
                         </div>
                         <div class="row">
-                            <div class="col-xs-12 wrong-tariffs col-sm-4">
+                            <div class="col-xs-12">
                                 <div class="tariffs-ps" >
                                     Вам не подходят наши тарифы? Оставьте заявку и мы предложим вам индивидуальные условия!
                                     <a href="#" class="contact-form tariffs-link" >Получить индивидуальный тариф</a>

@@ -55,7 +55,7 @@ class Form extends React.Component {
     render(){
     return (
       <div>
-        <form  onSubmit={this.handleForm} class="contact-message-order-support-form contact-message-form contact-form"  /*action="/support"*/ method="post" id="contact-message-order-support-form" accept-charset="UTF-8" >
+        <form  onSubmit={this.handleForm} class="contact-message-order-support-form contact-message-form contact-form"  method="post" id="contact-message-order-support-form" accept-charset="UTF-8" >
           <div class="field--type-string field--name-field-vashe-imya field--widget-string-textfield form-group js-form-wrapper form-wrapper" id="edit-field-vashe-imya-wrapper">
             <div class="form-item js-form-item form-type-textfield js-form-type-textfield form-item-field-vashe-imya-0-value js-form-item-field-vashe-imya-0-value form-group">
               <label for="edit-field-vashe-imya-0-value" class="control-label">Ваше имя</label>
@@ -95,8 +95,8 @@ class Form extends React.Component {
             render="explicit"
             onloadCallback={this.handleCaptchaLoaded}
             verifyCallback={this.verifyCallback}
-            
           />
+
           <button onClick={this.hundletuda} class="button button--primary js-form-submit form-submit btn-primary btn" type="submit" id="edit-submit" >Свяжитесь с нами</button>
 
         </form>

@@ -9,6 +9,7 @@ body {
   .alert a, .field--label, .file {
       font-weight: 700
   }
+
   .file, .file-link {
       width: 100%
   }
@@ -7727,7 +7728,7 @@ body {
       background: #f14d34
   }
   .wrong-tariffs{
-      margin:auto
+      margin: auto
   }
   .tariffs-ps {
       text-align: center;
